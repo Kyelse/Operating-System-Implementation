@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+scp kyelse@lec.cs.arizona.edu:/home/kyelse/CSC452/Project5/csc452fuse.c . 
+gcc -Wall `pkg-config fuse --cflags --libs` csc452fuse.c -o csc452

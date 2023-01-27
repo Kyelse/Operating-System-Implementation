@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+scp kyelse@lec.cs.arizona.edu:/home/kyelse/CSC452/Project3/syscalls.h /include/linux/ 
+scp kyelse@lec.cs.arizona.edu:/home/kyelse/CSC452/Project3/unistd.h /include/uapi/asm-generic/
+scp kyelse@lec.cs.arizona.edu:/home/kyelse/CSC452/Project3/sys.c kernel/

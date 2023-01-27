@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+dd bs=1K count=5K if=/dev/zero of=.disk
